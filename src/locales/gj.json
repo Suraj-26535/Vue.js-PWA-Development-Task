@@ -1,0 +1,248 @@
+{
+    "success": true,
+    "data": {
+        "id": 1,
+        "form_name": "Tripraasa Group Journey Passport Submissione",
+        "languages": [
+            "en",
+            "hi"
+        ],
+        "banner": "Sample Banner Image URL",
+        "add_member": 1,
+        "header": {
+            "en": "Header Text",
+            "hi": "शीर्ष-सूचना पाठ"
+        },
+        "footer": {
+            "en": "Footer Text",
+            "hi": "पाद-सूचना पाठ"
+        },
+        "submit_button_label": "Secure Travel Reservations",
+        "submit_success_action": "message",
+        "submit_success_content": "Bravo! Your Journey with Tripraasa Begins Now.",
+        "background_color": "#F7F8F9",
+        "form_background_color": "#FFFFFF",
+        "form_submit_button_color": "#0E90D9",
+        "attribute_label_color": "#546E7A",
+        "attributes": [
+            {
+                "id": 1,
+                "code": "date_of_birth",
+                "name":  "જન્મ તારીખ",
+                "placeholder":  "જન્મ તારીખ પસંદ કરો",
+                "type": "date"
+            },
+            {
+                "id": 2,
+                "code": "gender",
+                "name":  "જાતિ",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Male"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Female"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "code": "pan_card_number",
+                "name":  "PAN કાર્ડ નંબર",
+                "placeholder": "PAN કાર્ડ નંબર દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 4,
+                "code": "address",
+                "name": "સરનામું",
+                "placeholder":  "સરનામું દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 5,
+                "code": "city",
+                "name":  "શહેર",
+                "placeholder": "શહેર દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 6,
+                "code": "state",
+                "name":  "રાજ્ય",
+                "placeholder": "રાજ્ય પસંદ કરો",
+                "type": "select"
+            },
+            {
+                "id": 7,
+                "code": "country",
+                "name":  "દેશ",
+                "placeholder":  "દેશ દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 8,
+                "code": "pincode",
+                "name":  "પિનકોડ",
+                "placeholder": "પિનકોડ દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 9,
+                "code": "nominee_for_travel_insurance_policy",
+                "name": "યાત્રા વીમા નોમિની",
+                "placeholder": "નોમિની દાખલ કરો (યાત્રા વીમા નોમિની)",
+                "type": "text"
+            },
+            {
+                "id": 10,
+                "code": "pre_existing_disease_for_travel_insurance_policy",
+                "name": "પૂર્વવર્તમાન રોગ (માટે મફત યાત્રા બીમા નીતિ)",
+                "placeholder":  "પૂર્વવર્તમાન રોગ દાખલ કરો (માટે મફત યાત્રા બીમા નીતિ)",
+                "type": "text"
+            },
+            {
+                "id": 11,
+                "code": "marriage_anniversary",
+                "name": "વિવાહ સાલગિરહ",
+                "placeholder":  "પરંતુ માટે વિવાહ સાલગિરહ તારીખ પસંદ કરો",
+                "type": "date"
+            },
+            {
+                "id": 12,
+                "code": "food_preferences",
+                "name":  "ખોરાકના પસંદગો",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 3,
+                        "name": "Veg"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Non-Veg"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Jain"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "code": "passport_front",
+                "name":  "પાસપોર્ટ આગળ",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 14,
+                "code": "passport_back",
+                "name": "પાસપોર્ટ પાછળ",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 15,
+                "code": "passport_merged",
+                "name": "પાસપોર્ટ મર્જ",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 16,
+                "code": "passport_issue_date",
+                "name":  "પાસપોર્ટ ઇસ્યુ તારીખ",
+                "placeholder":  "પાસપોર્ટ ઇસ્યુ તારીખ પસંદ કરો",
+                "type": "date"
+            },
+            {
+                "id": 17,
+                "code": "passport_expiry_date",
+                "name":  "પાસપોર્ટ સમાપ્તિ તારીખ",
+                "placeholder":  "પાસપોર્ટ સમાપ્તિ તારીખ પસંદ કરો",
+                "type": "date"
+            },
+            {
+                "id": 18,
+                "code": "passport_issue_place",
+                "name":  "પાસપોર્ટ ઇસ્યુ સ્થાન",
+                "placeholder": "પાસપોર્ટ ઇસ્યુ સ્થાન દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 19,
+                "code": "passport_first_name",
+                "name": "પ્રથમ નામ",
+                "placeholder":  "પ્રથમ નામ દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 20,
+                "code": "passport_last_name",
+                "name": "અટક",
+                "placeholder":  "અટક દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 21,
+                "code": "passport_number",
+                "name":  "પાસપોર્ટ નંબર",
+                "placeholder":  "પાસપોર્ટ નંબર દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 22,
+                "code": "photo_id",
+                "name": "ફોટો આઇડી",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 23,
+                "code": "photo_id_member_first_name",
+                "name": "પ્રથમ નામ",
+                "placeholder":  "પ્રથમ નામ દાખલ કરો",
+                "type": "text"
+            },
+            {
+                "id": 24,
+                "code": "photo_id_type",
+                "name": "પ્રકાર",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 6,
+                        "name": "Adhaar card"
+                    },
+                    {
+                        "id": 7,
+                        "name": "PAN Card"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Driving License"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Voter ID"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "code": "photo_id_number",
+                "name": "ફોટો આઈડી નંબર",
+                "placeholder":"ફોટો આઈડી નંબર દાખલ કરો",
+                "type": "text"
+            }
+        ]
+    },
+    "message": "Web form Updated successfully"
+}

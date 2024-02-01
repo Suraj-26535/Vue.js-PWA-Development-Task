@@ -1,0 +1,242 @@
+{
+    "success": true,
+    "data": {
+        "id": 1,
+        "form_name": "Tripraasa Group Journey Passport Submissione",
+        "languages": [
+            "en",
+            "hi"
+        ],
+        "banner": "Sample Banner Image URL",
+        "add_member": 1,
+        "header":  "Header Text",
+        "footer": "Footer Text",
+        "submit_button_label": "Secure Travel Reservations",
+        "submit_success_action": "message",
+        "submit_success_content": "Bravo! Your Journey with Tripraasa Begins Now.",
+        "background_color": "#F7F8F9",
+        "form_background_color": "#FFFFFF",
+        "form_submit_button_color": "#0E90D9",
+        "attribute_label_color": "#546E7A",
+        "attributes": [
+            {
+                "id": 1,
+                "code": "date_of_birth",
+                "name":  "Date Of Birth",
+                "placeholder": "Select Date Of Birth",
+                "type": "date"
+            },
+            {
+                "id": 2,
+                "code": "gender",
+                "name":  "Gender",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Male"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Female"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "code": "pan_card_number",
+                "name": "PAN Card Number",
+                "placeholder": "Enter PAN Card Number",
+                "type": "text"
+            },
+            {
+                "id": 4,
+                "code": "address",
+                "name": "Address",
+                "placeholder": "Enter Address",
+                "type": "text"
+            },
+            {
+                "id": 5,
+                "code": "city",
+                "name": "City",
+                "placeholder":  "Enter City",
+                "type": "text"
+            },
+            {
+                "id": 6,
+                "code": "state",
+                "name":  "State",
+                "placeholder":  "Select State",
+                "type": "text"
+            },
+            {
+                "id": 7,
+                "code": "country",
+                "name":  "Country",
+                "placeholder": "Enter Country",
+                "type": "text"
+            },
+            {
+                "id": 8,
+                "code": "pincode",
+                "name":  "Pincode",
+                "placeholder":  "Enter Pincode",
+                "type": "text"
+            },
+            {
+                "id": 9,
+                "code": "nominee_for_travel_insurance_policy",
+                "name":  "Nominee (for travel insurance policy)",
+                "placeholder": "Enter Nominee (for travel insurance policy)",
+                "type": "text"
+            },
+            {
+                "id": 10,
+                "code": "pre_existing_disease_for_travel_insurance_policy",
+                "name":  "Pre existing disease (for travel insurance policy)",
+                "placeholder":  "Enter Pre existing disease (for travel insurance policy)",
+                "type": "text"
+            },
+            {
+                "id": 11,
+                "code": "marriage_anniversary",
+                "name":  "Marriage Anniversary",
+                "placeholder": "Select Marriage Anniversary Date",
+                "type": "date"
+            },
+            {
+                "id": 12,
+                "code": "food_preferences",
+                "name": "Food Preferences",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 3,
+                        "name": "Veg"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Non-Veg"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Jain"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "code": "passport_front",
+                "name":  "Passport Front",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 14,
+                "code": "passport_back",
+                "name":  "Passport Back",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 15,
+                "code": "passport_merged",
+                "name": "Passport Merged",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 16,
+                "code": "passport_issue_date",
+                "name": "Passport Issue Date",
+                "placeholder": "Select Passport Issue Date",
+                "type": "date"
+            },
+            {
+                "id": 17,
+                "code": "passport_expiry_date",
+                "name": "Passport Expiry Date",
+                "placeholder": "Select Passport Expiry Date",
+                "type": "date"
+            },
+            {
+                "id": 18,
+                "code": "passport_issue_place",
+                "name":  "Passport Issue Place",
+                "placeholder": "Enter Passport Issue Place",
+                "type": "text"
+            },
+            {
+                "id": 19,
+                "code": "passport_first_name",
+                "name":  "First Name",
+                "placeholder": "Enter First Name",
+                "type": "text"
+            },
+            {
+                "id": 20,
+                "code": "passport_last_name",
+                "name": "Last Name",
+                "placeholder":  "Enter Last Name",
+                "type": "text"
+            },
+            {
+                "id": 21,
+                "code": "passport_number",
+                "name": "Passport Number",
+                "placeholder": "Enter Passport Number",
+                "type": "text"
+            },
+            {
+                "id": 22,
+                "code": "photo_id",
+                "name": "Photo ID",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 23,
+                "code": "photo_id_member_first_name",
+                "name": "First Name",
+                "placeholder": "Enter First Name",
+                "type": "text"
+            },
+            {
+                "id": 24,
+                "code": "photo_id_type",
+                "name": "Type",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 6,
+                        "name": "Adhaar card"
+                    },
+                    {
+                        "id": 7,
+                        "name": "PAN Card"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Driving License"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Voter ID"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "code": "photo_id_number",
+                "name":  "Photo ID Number",
+                "placeholder":  "Enter Photo ID Number",
+                "type": "text"
+            }
+        ]
+    },
+    "message": "Web form Updated successfully"
+}

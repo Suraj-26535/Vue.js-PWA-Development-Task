@@ -1,0 +1,243 @@
+{
+    "success": true,
+    "data": {
+        "id": 1,
+        "form_name": "Tripraasa Group Journey Passport Submissione",
+        "languages": [
+            "en",
+            "hi"
+        ],
+        "banner": "Sample Banner Image URL aapka",
+        "add_member": 1,
+        "header":  "शीर्ष-सूचना पाठ",
+        "footer":  "पाद-सूचना पाठ",
+        "submit_button_label": "Secure Travel Reservations",
+        "submit_success_action": "message",
+        "submit_success_content": "Bravo! Your Journey with Tripraasa Begins Now.",
+        "background_color": "#F7F8F9",
+        "form_background_color": "#FFFFFF",
+        "form_submit_button_color": "#0E90D9",
+        "attribute_label_color": "#546E7A",
+        "attributes": [
+            {
+                "id": 1,
+                "code": "date_of_birth",
+                "name": "जन्मतिथि",
+                "placeholder": "जन्मतिथि चुनें",
+                "type": "date"
+            },
+            {
+                "id": 2,
+                "code": "gender",
+                "name": "लिंग",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Male"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Female"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "code": "pan_card_number",
+                "name": "पैन कार्ड नंबर",
+                "placeholder": "पैन कार्ड नंबर दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 4,
+                "code": "address",
+                "name": "पता",
+                "placeholder": "पता दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 5,
+                "code": "city",
+                "name": "शहर",
+                "placeholder": "शहर दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 6,
+                "code": "state",
+                "name":  "राज्य",
+                "placeholder": "राज्य चुनें",
+                "type": "text"
+            },
+            {
+                "id": 7,
+                "code": "country",
+                "name": "देश",
+                "placeholder": "देश दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 8,
+                "code": "pincode",
+                "name": "पिनकोड",
+                "placeholder": "पिनकोड दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 9,
+                "code": "nominee_for_travel_insurance_policy",
+                "name": "यात्रा बीमा नामांकन",
+                "placeholder": "यात्रा बीमा नामांकन दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 10,
+                "code": "pre_existing_disease_for_travel_insurance_policy",
+                "name": "यात्रा बीमा नीति के लिए पूर्व मौजूदा बीमारी",
+                "placeholder": "पूर्व मौजूदा बीमारी दर्ज करें (यात्रा बीमा नीति के लिए)",
+                "type": "text"
+            },
+            {
+                "id": 11,
+                "code": "marriage_anniversary",
+                "name": "विवाह जयंती",
+                "placeholder":"विवाह जयंती तिथि का चयन करें",
+                "type": "date"
+            },
+            {
+                "id": 12,
+                "code": "food_preferences",
+                "name": "खाद्य पसंद",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 3,
+                        "name": "Veg"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Non-Veg"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Jain"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "code": "passport_front",
+                "name": "पासपोर्ट का फ्रंट",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 14,
+                "code": "passport_back",
+                "name": "पासपोर्ट की पीठ",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 15,
+                "code": "passport_merged",
+                "name": "पासपोर्ट मर्ज",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 16,
+                "code": "passport_issue_date",
+                "name": "पासपोर्ट जारी करने की तारीख",
+                "placeholder": "पासपोर्ट जारी करने की तारीख चुनें",
+                "type": "date"
+            },
+            {
+                "id": 17,
+                "code": "passport_expiry_date",
+                "name": "पासपोर्ट समाप्ति तिथि",
+                "placeholder": "पासपोर्ट समाप्ति तिथि का चयन करें",
+
+                "type": "date"
+            },
+            {
+                "id": 18,
+                "code": "passport_issue_place",
+                "name": "पासपोर्ट इश्यू स्थान",
+                "placeholder":  "पासपोर्ट इश्यू स्थान दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 19,
+                "code": "passport_first_name",
+                "name": "पहला नाम",
+                "placeholder": "पहला नाम दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 20,
+                "code": "passport_last_name",
+                "name": "अंतिम नाम",
+                "placeholder": "अंतिम नाम दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 21,
+                "code": "passport_number",
+                "name":  "पासपोर्ट नंबर",
+                "placeholder": "पासपोर्ट नंबर दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 22,
+                "code": "photo_id",
+                "name": "फ़ोटो आईडी",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 23,
+                "code": "photo_id_member_first_name",
+                "name":  "पहला नाम",
+                "placeholder": "पहला नाम दर्ज करें",
+                "type": "text"
+            },
+            {
+                "id": 24,
+                "code": "photo_id_type",
+                "name":  "प्रकार",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 6,
+                        "name": "Adhaar card"
+                    },
+                    {
+                        "id": 7,
+                        "name": "PAN Card"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Driving License"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Voter ID"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "code": "photo_id_number",
+                "name":  "फोटो आईडी नंबर",
+                "placeholder": "फोटो आईडी नंबर दर्ज करें",
+                "type": "text"
+            }
+        ]
+    },
+    "message": "Web form Updated successfully"
+}
