@@ -6,13 +6,13 @@ This project is a multi-language Progressive Web Application (PWA) developed usi
 
 ```
 npm install
-```
 
 ### Compiles and hot-reloads for development
 
 ```
+
 npm run serve
-```
+Visit http://localhost:8080 in your browser to see the application.
 
 This will start a development server, and you can access the application in your browser at http://localhost:8080 (or a different port if 8080 is in use).
 
