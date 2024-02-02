@@ -1,0 +1,244 @@
+{
+    "success": true,
+    "data": {
+        "id": 1,
+        "form_name": "Tripraasa Group Journey Passport Submissione",
+        "languages": [
+            "en",
+            "hi"
+        ],
+        "banner": "Sample Banner Image URL",
+        "add_member": 1,
+        "header":  "Header Text",
+        "footer": "Footer Text",
+        "submit_button_label": "Secure Travel Reservations",
+        "submit_success_action": "message",
+        "submit_success_content": "Bravo! Your Journey with Tripraasa Begins Now.",
+        "background_color": "#F7F8F9",
+        "form_background_color": "#FFFFFF",
+        "form_submit_button_color": "#0E90D9",
+        "attribute_label_color": "#546E7A",
+        "attributes": [
+            {
+                "id": 1,
+                "code": "date_of_birth",
+                "name": "ಹುಟ್ತಿದ ದಿನ",
+                "placeholder": "ಹುಟ್ಟಿದ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+                "type": "date"
+            },
+            {
+                "id": 2,
+                "code": "gender",
+                "name": "ಲಿಂಗ",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 1,
+                        "name": "Male"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Female"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "code": "pan_card_number",
+                "name": "PAN ಕಾರ್ಡ್ ಸಂಖ್ಯೆಯನ್ನು",
+                "placeholder":  "PAN ಕಾರ್ಡ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 4,
+                "code": "address",
+                "name": "ವಿಳಾಸ",
+                "placeholder": "ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 5,
+                "code": "city",
+                "name": "ನಗರ",
+                "placeholder": "ನಗರವನ್ನು ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 6,
+                "code": "state",
+                "name":  "ರಾಜ್ಯ",
+                "placeholder": "ರಾಜ್ಯ ಆಯ್ಕೆಮಾಡಿ",
+                "type": "select"
+            },
+            {
+                "id": 7,
+                "code": "country",
+                "name":  "ದೇಶ",
+                "placeholder": "ದೇಶವನ್ನು ನಮೂದಿಸಿ",
+
+                "type": "text"
+            },
+            {
+                "id": 8,
+                "code": "pincode",
+                "name": "ಪಿನ್‌ಕೋಡ್",
+                "placeholder": "ಪಿನ್‌ಕೋಡ್ ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 9,
+                "code": "nominee_for_travel_insurance_policy",
+                "name": "ಯಾತ್ರಾ ವಿಮಾನ ಪಾಲಿಸಿಗಾಗಿ ನಾಮಿನಿ",
+                "placeholder": "ಯಾತ್ರಾ ವಿಮಾನ ಪಾಲಿಸಿಗಾಗಿ ನಾಮಿನಿ ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 10,
+                "code": "pre_existing_disease_for_travel_insurance_policy",
+                "name": "ಯಾತ್ರಾ ವಿಮಾನ ಪಾಲಿಸಿ ಹಾಗೂ ಸೇರುವ ಹಳೆಯ ರೋಗ",
+                "placeholder": "ಯಾತ್ರಾ ವಿಮಾನ ಪಾಲಿಸಿ ಹಾಗೂ ಸೇರುವ ಹಳೆಯ ರೋಗ ನಮೂದಿಸಿ",
+
+                "type": "text"
+            },
+            {
+                "id": 11,
+                "code": "marriage_anniversary",
+                "name": "ಮೆರೇಜ್ ಸಂಬಂಧದ ವಾರ್ಷಿಕೋತ್ಸವ",
+                "placeholder":  "ಮೆರೇಜ್ ಸಂಬಂಧದ ವಾರ್ಷಿಕೋತ್ಸವ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+                "type": "date"
+            },
+            {
+                "id": 12,
+                "code": "food_preferences",
+                "name": "ಆಹಾರ ಆಸಕ್ತಿಗಳು",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 3,
+                        "name": "Veg"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Non-Veg"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Jain"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "code": "passport_front",
+                "name": "ಪಾಸ್‌ಪೋರ್ಟ್ ಮುಂದು",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 14,
+                "code": "passport_back",
+                "name": "ಪಾಸ್‌ಪೋರ್ಟ್ ಹಿಂದೆ",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 15,
+                "code": "passport_merged",
+                "name": "ಪಾಸ್ಪೋರ್ಟ್ ವಿಲೀನ",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 16,
+                "code": "passport_issue_date",
+                "name":  "ಪಾಸ್‌ಪೋರ್ಟ್ ಇಷ್ಯೂ ದಿನಾಂಕ",
+                "placeholder":  "ಪಾಸ್‌ಪೋರ್ಟ್ ಇಷ್ಯೂ ದಿನಾಂಕ ಆರಿಸಿ",
+                "type": "date"
+            },
+            {
+                "id": 17,
+                "code": "passport_expiry_date",
+                "name": "ಪಾಸ್ಪೋರ್ಟ್ ಅವಸಾನ ದಿನಾಂಕ",
+                "placeholder":  "ಪಾಸ್ಪೋರ್ಟ್ ಅವಸಾನ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+                "type": "date"
+            },
+            {
+                "id": 18,
+                "code": "passport_issue_place",
+                "name":  "ಪಾಸ್‌ಪೋರ್ಟ್ ಇಸ್ಯೂ ಸ್ಥಾನ",
+                "placeholder": "ಪಾಸ್‌ಪೋರ್ಟ್ ಇಸ್ಯೂ ಸ್ಥಾನ ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 19,
+                "code": "passport_first_name",
+                "name": "ಮೊದಲ ಹೆಸರು",
+                "placeholder": "ಮೊದಲ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 20,
+                "code": "passport_last_name",
+                "name": "ಕೊನೆಯ ಹೆಸರು",
+                "placeholder":"ಕೊನೆಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 21,
+                "code": "passport_number",
+                "name": "ಪಾಸ್‌ಪೋರ್ಟ್ ಸಂಖ್ಯೆ",
+                "placeholder": "ಪಾಸ್‌ಪೋರ್ಟ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 22,
+                "code": "photo_id",
+                "name": "ಫೋಟೊ ಐಡಿ",
+                "placeholder": [],
+                "type": "file"
+            },
+            {
+                "id": 23,
+                "code": "photo_id_member_first_name",
+                "name": "ಮೊದಲ ಹೆಸರು",
+                "placeholder": "ಮೊದಲ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+                "type": "text"
+            },
+            {
+                "id": 24,
+                "code": "photo_id_type",
+                "name":  "ರೀತಿ",
+                "placeholder": [],
+                "type": "select",
+                "options": [
+                    {
+                        "id": 6,
+                        "name": "Adhaar card"
+                    },
+                    {
+                        "id": 7,
+                        "name": "PAN Card"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Driving License"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Voter ID"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "code": "photo_id_number",
+                "name": "ಫೋಟೊ ಐಡಿ ಸಂಖ್ಯೆ",
+                "placeholder": "ಫೋಟೊ ಐಡಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ",
+                "type": "text"
+            }
+        ]
+    },
+    "message": "Web form Updated successfully"
+}

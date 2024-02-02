@@ -1,37 +1,43 @@
 <template>
   <label for="languageDropdown">Select Language: </label>
-        <select id="languageDropdown" @change="switchLanguage($event.target.value)" v-model="selectedLanguage">
-          <option v-for="(value, key) in languages" :key="key" :value="key">{{ value }}</option>
-        </select>
-  <FormField :formData="formData.data"/>
+  <select
+    id="languageDropdown"
+    @change="switchLanguage($event.target.value)"
+    v-model="selectedLanguage"
+  >
+    <option v-for="(value, key) in languages" :key="key" :value="key">
+      {{ value }}
+    </option>
+  </select>
+  <FormField :formData="formData.data" />
 </template>
 
 <script>
-import FormField from './components/FormField.vue'
+import FormField from "./components/FormField.vue";
 // import formData from './locales/en.json'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     FormField,
   },
   data() {
     return {
-      formData:null,
-      selectedLanguage: 'en',
+      formData: null,
+      selectedLanguage: "en",
       languages: {
-        en: 'English',
-        hi: 'Hindi',
-        gj:'Gujrati',
+        en: "English",
+        hi: "Hindi",
+        gj: "Gujrati",
+        ka: "kannad",
         // Add more languages as needed
       },
-
     };
   },
   methods: {
     loadFormData(language) {
       import(`@/locales/${language}.json`).then((module) => {
-        this.formData = module
+        this.formData = module;
       });
     },
     // loadFormData(language) {
@@ -44,11 +50,11 @@ export default {
     },
   },
   created() {
-    const defaultLanguage = 'en';
+    const defaultLanguage = "en";
     this.$i18n.locale = defaultLanguage;
     this.loadFormData(defaultLanguage);
   },
-}
+};
 </script>
 
 <style>
